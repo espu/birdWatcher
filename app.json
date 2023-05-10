@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "mp-birdwatcher",
-    "slug": "mp-birdwatcher",
+    "slug": "birdwatcher",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.espu.birdwatcher"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.espu.birdwatcher"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf78db3c-415b-48ec-9e37-1ce78c86b95f"
+      }
+    },
+    "owner": "espu"
   }
 }
