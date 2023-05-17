@@ -1,5 +1,19 @@
 # birdWatcher
 
+## Preview
+<details closed>
+    <summary>Click to view</summary>
+    
+<img src="/assets/gifs/1.gif" align="left" width="205px" height="450px"/>
+<img src="/assets/gifs/2.gif" align="left" width="205px" height="450px"/>
+<img src="/assets/gifs/3.gif" align="left" width="205px" height="450px"/>
+<img src="/assets/gifs/4.gif" align="left" width="205px" height="450px"/>
+<br clear="left"/>
+
+</details>
+
+## Description
+
 The journal application for bird enthusiasts allows users to keep track of their bird sightings, view their recent sightings with access to detailed information about the birds, and discover new sightings made by other bird watchers in their area.
 
 When the user first opens the application, they are greeted with a login page. If the user doesn't have an account, they can click the "Sign up" button instead of entering their email and password. This will navigate them to a sign-up form, where they must enter an email, password, and password confirmation (repeating the password input). There is error handling in place in the case of an already used email, a wrong email format, not matching passwords, or unsecure passwords. When the user clicks "Sign up," they will navigate to the home screen.
